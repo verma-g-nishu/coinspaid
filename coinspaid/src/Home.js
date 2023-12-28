@@ -94,7 +94,7 @@ const Home = () => {
             </div>
 
             <div className='section3'>
-                <div className='custom-container section3'>
+                <div className='custom-container'>
                     <div className='row w-100 table-row'>
                         <div className='col-lg-12 table-scroll'>
                             <div className='table-section'><TableCrypto /></div>
@@ -138,7 +138,7 @@ const Home = () => {
                         <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                     <div className='col-lg-6 business-type'>
-                        <img src={ecommerce}/>
+                        <img src={ecommerce} />
                     </div>
 
                 </div>

@@ -101,7 +101,8 @@
 .home-page {
     background: $background-color;
     overflow-x: auto;
-    .message-icon{
+
+    .message-icon {
         color: $white-color;
     }
 }
@@ -465,50 +466,60 @@
 
     .table-row {
         margin: 0px;
-    }
 
-    .table-scroll {
-        overflow-x: scroll;
-    }
+        .table-scroll {
+            overflow-x: scroll;
+            overflow-y: scroll;
 
-    .table-section {
-        table {
-            margin: auto;
-            background: black;
+            .table-section {
 
-            .table-head1 {
-                padding-left: 20px;
-            }
+                width: 100%;
 
-            th {
-                width: 33%;
-                font-size: 18px;
 
-                @media ($breakpoint_576) {
-                    font-size: 14px;
+                table {
+                    margin: auto;
+                    background: black;
+
+                    .table-head1 {
+                        padding-left: 20px;
+                    }
+
+                    th {
+                        width: 33%;
+                        font-size: 18px;
+
+                        @media ($breakpoint_576) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    th,
+                    tr,
+                    td {
+
+                        border: 1px solid $navyblue-color;
+                        padding: 1rem 6rem;
+                        color: $white-color;
+                        text-align: left;
+                        font-size: 18px;
+
+                        @media ($breakpoint_576) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    td {
+                        font-weight: 700;
+                    }
                 }
             }
 
-            th,
-            tr,
-            td {
-
-                border: 1px solid $navyblue-color;
-                padding: 1rem 6rem;
-                color: $white-color;
-                text-align: left;
-                font-size: 18px;
-
-                @media ($breakpoint_576) {
-                    font-size: 14px;
-                }
-            }
-
-            td {
-                font-weight: 700;
-            }
         }
     }
+
+
+
+
 
 }
 
@@ -519,7 +530,7 @@
 
     @media ($breakpoint_479) {
 
-            padding-top: 1rem !important;
+        padding-top: 1rem !important;
 
     }
 
@@ -1079,5 +1090,5 @@
         font-size: 14px;
         font-weight: 600;
     }
-   
+
 }
