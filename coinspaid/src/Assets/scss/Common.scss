@@ -1,0 +1,61 @@
+/*.....colors and breakpoints.........*/
+
+
+
+
+
+$breakpoint_1400: 'max-width:1400px';
+$breakpoint_1200: 'max-width:1200px';
+$breakpoint_991: 'max-width:991px';
+$breakpoint_992: 'max-width:992px';
+$breakpoint_768: 'max-width:768px';
+$breakpoint_576: "max-width: 576px";
+$breakpoint_479: 'max-width:479px';
+$breakpoint_320: 'max-width:320px';
+
+
+
+
+/*...............colors...............*/
+$white-color: white;
+$background-color: #040517;
+$navyblue-color: #161627;
+$blue-color: #144bff;
+$lightgray-color: #919394;
+$darkgray-color: #525252;
+$gray: #575757;
+$light-navy: #1d1e33;
+$white-smoke: #9b9ba2;
+$deep-skyblue: #00BFFF;
+
+
+
+@mixin contin {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 2rem;
+}
+
+.coustom_container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+
+    @media (max-width:1200px) {
+        padding: 0 40px;
+    }
+
+    @media (max-width:992px) {
+        padding: 0 30px;
+    }
+
+    @media (max-width:768px) {
+        padding: 0 18px;
+    }
+
+    @media (max-width:576px) {
+        padding: 0 15px;
+    }
+}

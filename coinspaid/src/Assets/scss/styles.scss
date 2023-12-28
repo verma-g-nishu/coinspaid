@@ -1,0 +1,31 @@
+
+body::-webkit-scrollbar{
+    display: none !important;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+
+@import 'Common.scss';
+
+@import './Home.scss';
+
+@import './BecomePartner.scss';
+ 
+@import './ContactUs.scss';
+
+@import './Footer.scss';
+
+@import 'PublicHeader.scss';
+
+@import './Footer.scss';
+
+@import './Login.scss';
+
+@import './SignIn.scss';
+
+@import './Wallet.scss';
+
+@import './NavbarCDPtoken.scss';
+
+@import './BusinessSolution.scss';

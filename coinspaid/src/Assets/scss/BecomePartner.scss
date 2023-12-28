@@ -1,0 +1,355 @@
+.section-overflow {
+    overflow-x: hidden;
+    background-color: $background-color;
+
+    @media ($breakpoint_576) {
+        overflow-x: hidden;
+
+    }
+
+
+    .become-section {
+        background-color: $background-color;
+        padding-bottom: 5rem;
+
+        .coinpaid-row {
+            padding: 5rem 0rem;
+
+            @media ($breakpoint_1200) {
+
+                padding-left: 0rem;
+                padding-right: 0rem;
+
+            }
+
+            @media ($breakpoint_992) {
+
+                padding: 0rem;
+
+            }
+
+            @media ($breakpoint_768) {
+
+                padding: 0rem ;
+
+            }
+            @media ($breakpoint_576) {
+
+                padding: 0rem 1rem;
+
+            }
+            @media ($breakpoint_479) {
+
+                padding: 0rem 1rem;
+
+            }
+
+            .become-coinspaid {
+                font-weight: 700;
+                font-size: 55px;
+                line-height: 55px;
+                padding-bottom: 1rem;
+                color: $white-color;
+
+                @media ($breakpoint_992) {
+                    font-size: 54px;
+                    padding-top: 5rem;
+
+                    text-align: left;
+
+                }
+
+                @media ($breakpoint_768) {
+                    font-size: 50px;
+                    padding-top: 3rem;
+                  
+                    text-align: center;
+
+                }
+
+                @media ($breakpoint_576) {
+                    font-size: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    padding-top: 3rem;
+                    padding-left: 0rem;
+                    padding-right: 0rem;
+
+                }
+
+                @media ($breakpoint_479) {
+                    font-size: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    padding-top: 3rem;
+                    padding-left: 0rem;
+                    padding-right: 0rem;
+                }
+
+            }
+
+            .network {
+                color: $white-color;
+                opacity: 0.54;
+
+                @media ($breakpoint_768) {
+                    text-align: center;
+                }
+            }
+
+            .button-column {
+                text-align: center;
+
+                .become-partner {
+                    padding-top: 2.5rem;
+
+                    @media ($breakpoint_992) {
+                        text-align: left;
+                    }
+
+                    @media ($breakpoint_768) {
+                        text-align: center;
+                    }
+
+                    .become-btn {
+                        padding: 1rem 3.7rem;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .brand-section {
+        background-color: $background-color;
+        padding-bottom: 5rem;
+
+        @media ($breakpoint_768) {
+            padding-bottom: 2rem;
+
+        }
+
+        .brand-guide {
+        
+            color: $white-color;
+
+            @media ($breakpoint_1200) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: left;
+            }
+
+            @media ($breakpoint_992) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: left;
+            }
+
+            @media ($breakpoint_768) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: center;
+            }
+
+            @media ($breakpoint_576) {
+                padding: 0rem 1rem 5rem 1rem;
+                text-align: center;
+            }
+            @media ($breakpoint_576) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: center;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 55px;
+
+                @media ($breakpoint_768) {
+                    font-size: 50px;
+                }
+
+                @media ($breakpoint_576) {
+                    font-size: 45px;
+                }
+
+                @media ($breakpoint_479) {
+                    font-size: 30px;
+                }
+            }
+
+        }
+
+        .promotion {
+            opacity: 0.54;
+        }
+
+        .cards-space {
+            padding: 2rem 0rem 0rem 0rem;
+
+            @media ($breakpoint_992) {
+
+                padding: 2rem;
+
+            }
+
+            @media ($breakpoint_768) {
+
+                padding: 2rem;
+
+            }
+
+            @media ($breakpoint_576) {
+                padding: 0rem;
+
+            }
+
+            @media ($breakpoint_768) {
+                .card-mobile {
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+
+        .card {
+            width: 350px;
+            border: none;
+
+
+            @media ($breakpoint_1400) {
+                margin: 0 auto;
+                width: 100%;
+
+            }
+
+            @media ($breakpoint_576) {
+                margin: 0 auto;
+                width: 100%;
+
+            }
+
+            @media ($breakpoint_479) {
+                margin: auto;
+                width: 300px;
+
+            }
+
+            .card-body {
+                padding: 20px;
+
+                .card-title {
+                    font-size: 20px;
+                }
+
+                .card-text {
+
+                    font-size: 14px;
+                    white-space: nowrap;
+
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                }
+
+                .get {
+                    font-size: 13px !important;
+                    padding: 0.3rem 1.3rem;
+                }
+
+                .explore {
+                    font-size: 13px !important;
+                    padding: 0.3rem 1.5rem;
+                }
+
+                .read {
+                    font-size: 13px !important;
+                    padding: 0.3rem 2rem;
+                }
+            }
+        }
+
+        .card-img-top {
+            width: 100%;
+
+
+
+        }
+    }
+
+
+    .join-section {
+        background-color: $background-color;
+        padding-bottom: 5rem;
+
+        .community-row {
+            padding: 5rem 0rem;
+
+            @media ($breakpoint_1200) {
+                padding-left: 0rem;
+                padding-right: 0rem;
+            }
+
+            @media ($breakpoint_992) {
+
+              padding-left: 0rem;
+              padding-right: 0rem;
+                text-align: left;
+            }
+
+
+            @media ($breakpoint_768) {
+
+                padding: 0rem 2rem;
+                text-align: center;
+            }
+
+            @media ($breakpoint_576) {
+
+                padding: 0px 15px;
+                text-align: center;
+            }
+
+
+            .join-our {
+                font-size: 55px;
+                line-height: 55px;
+                color: $white-color;
+                font-weight: 700;
+                font-family: 'SK-Modernist', Arial, sans-serif;
+
+                @media ($breakpoint_768) {
+                    line-height: 50px;
+                    font-size: 50px;
+                }
+
+                @media ($breakpoint_576) {
+                    line-height: 45px;
+                    font-size: 45px;
+                }
+
+                @media ($breakpoint_576) {
+                    line-height: 45px;
+                    font-size: 45px;
+                }
+
+                @media ($breakpoint_479) {
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+            }
+
+            .appreciate {
+                font-size: 18px;
+                color: $lightgray-color;
+                padding-bottom: 2rem;
+            }
+
+            .let-btn {
+                font-size: 14px;
+                font-family: 'Arial', Arial, sans-serif;
+                font-weight: 600;
+                padding: 1rem 4rem;
+                white-space: nowrap;
+            }
+        }
+
+
+    }
+}

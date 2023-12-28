@@ -1,0 +1,135 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.cookies {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 75, 255);
+    color: $white-color;
+    padding: 0.5rem 1rem;
+
+    @media ($breakpoint_768) {
+        display: block;
+
+    }
+
+    @media ($breakpoint_479) {
+        display: none;
+
+    }
+
+    .accept-all {
+        white-space: nowrap;
+        @media ($breakpoint_768) {
+
+            padding-top: 1rem;
+            text-align: center;
+            white-space: nowrap;
+        }
+    }
+}
+
+.footer-sign {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 75, 255);
+    color: $white-color;
+    padding: 0.5rem 1rem;
+    display: none;
+
+    @media ($breakpoint_1400) {
+        display: none;
+    }
+
+    @media ($breakpoint_479) {
+        display: block;
+        position: sticky;
+        bottom: 0;
+    }
+
+    @media ($breakpoint_768) {
+        .accept-all {
+            padding-top: 1rem;
+            text-align: center;
+
+        }
+    }
+
+
+
+}
+
+
+.image-styles {
+
+    padding: 4rem 2rem;
+
+    @media ($breakpoint_576) {
+        padding: 2rem 0rem;
+        text-align: center;
+
+    }
+
+    .logo-name {
+        width: 200px;
+        background-color: black;
+    }
+
+}
+.image-styles-crypto {
+
+    padding: 4rem 2rem;
+
+    @media ($breakpoint_576) {
+        padding: 2rem 0rem;
+        text-align: center;
+
+    }
+
+    .logo-name {
+        width: 200px;
+      
+    }
+
+}
+
+.heading-signin {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+    padding-bottom: 3rem;
+
+}
+
+.form-label {
+    max-width: 450px;
+    margin: 0 auto;
+
+    .button-above-space {
+        padding-top: 3rem;
+    }
+
+    .button-sign {
+        width: 100%;
+        padding: 0.7rem 2rem;
+        border: rgba(20, 75, 255, 0.32);
+    background: rgba(20, 75, 255, 0.32);
+    }
+
+    .Account {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        font-size: 16px;
+        font-weight: 500;
+
+
+        @media ($breakpoint_479) {
+            font-size: 14px;
+        }
+    }
+
+
+}

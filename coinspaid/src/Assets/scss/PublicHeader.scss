@@ -1,0 +1,127 @@
+
+.header-container{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px 2rem;
+    @media ($breakpoint_992){
+        padding: 15px 1rem;
+    }
+    @media ($breakpoint_576){
+        padding: 15px 0rem;
+    }
+}
+
+
+
+.navbar-section {
+    background: $background-color;
+
+  
+}
+
+.login-space {
+
+    margin-right: 10px;
+
+}
+
+.login-btn {
+    padding: 0.5rem 2rem;
+    background-color: $light-navy !important;
+    border: $light-navy !important;
+    margin-right: 10px;
+    a{
+        text-decoration: none;
+        color: $white-color;
+     
+    }
+    a:hover{
+        color: $white-color;
+    }
+}
+
+.solution {
+    white-space: nowrap;
+}
+
+.became {
+    white-space: nowrap;
+}
+
+.sign-up-btn {
+    padding: 0.3rem 0.7rem !important;
+    white-space: nowrap;
+    a{
+        text-decoration: none;
+        color: $white-color;
+     
+    }
+    a:hover{
+        color: $white-color;
+    }
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: $white-color;
+}
+
+.navbar-toggler:active {
+    background: $white-color;
+}
+
+.navbar-section .collapsed {
+    background-color: $white-color;
+}
+
+.header-top {
+    text-align: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.coinspaid-logo {
+    width: 174px;
+    min-width: 174px;
+    height: auto;
+}
+
+.nav-styles {
+    margin-right: 7rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.link-items {
+    padding: 1rem;
+}
+
+.link-items{
+    a {
+        text-decoration: none;
+        color: $white-smoke;
+        font-size: 15px;
+        font-weight: 700;
+        opacity: 0.8;
+
+        &:hover{
+            color: $white-color !important;
+        }
+        
+    }
+}
+
+
+.spacing-top {
+    padding-top: 0.5rem;
+}

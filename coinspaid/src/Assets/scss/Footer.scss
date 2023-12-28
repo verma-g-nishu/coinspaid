@@ -1,0 +1,56 @@
+
+.footer-bottom-spacing {
+    padding-bottom: 2rem;
+
+    .social-icons {
+        padding-top: 10px;
+
+        .list-social-icon {
+            display: flex;
+            gap: 10px;
+
+
+        }
+
+        .dream-finance {
+            color: $darkgray-color;
+            font-size: 11px;
+            font-family: 'Sk-Modernist', Arial, sans-serif;
+            line-height: 1.55;
+
+        }
+    }
+
+    .product-heading {
+        margin-bottom: 9px;
+        color: $darkgray-color;
+        font-size: 16px;
+        padding-top: 10px;
+        font-weight: 600;
+    }
+
+    .products {
+        padding-left: 0px;
+        list-style: none !important;
+        display: block;
+
+        .product-items {
+            color:$white-color;
+            font-weight: 400;
+
+            font-size: 14px;
+            line-height: 1.35;
+            margin-bottom: 8px;
+        }
+    }
+.spacing-above{
+    padding-top: 6rem;
+    .data {
+
+        color: $darkgray-color;
+        font-size: 11px;
+        font-family: 'Sk-Modernist', Arial, sans-serif;
+        line-height: 1.55;
+    }
+}
+}
